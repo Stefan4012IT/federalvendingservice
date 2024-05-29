@@ -831,7 +831,7 @@ footer .title {
         font-size: 20px;
     }
 
-    .navbar .navbar-links a.nav-link span{
+    .navbar .navbar-links a.nav-link span {
         font-size: 18px !important;
     }
 
@@ -852,13 +852,18 @@ footer .title {
         max-width: 1000px;
     }
 
+    .section-1 .federal-entertaintment--right-side,
+    .section-2 .federal-food-service--left-side {
+        height: 550px;
+    }
+
     .section-3 .federal-excellence--left-side {
         height: auto;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    .navbar .navbar-links a.nav-link span{
+    .navbar .navbar-links a.nav-link span {
         font-size: 16px !important;
     }
 }
