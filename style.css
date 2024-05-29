@@ -86,6 +86,7 @@ h6 {
     width: 100vw;
     height: 100vh;
     background: url(./assets/img/logo/federalvendingservice-hero-background.png);
+    box-shadow: #011824 0px 10px 40px;
     z-index: 0;
 }
 
@@ -533,7 +534,7 @@ h6 {
 }
 
 .section-1 .btn-border-left:before {
-    top: -1px;
+    top: -2px;
 }
 
 .section-1 .button:hover .btn-border-left::before {
@@ -544,7 +545,7 @@ h6 {
     0% {
         width: 0;
         height: 100%;
-        top: -1px;
+        top: -2px;
         left: 0;
         border-top-color: #FA0303;
         border-bottom-color: #FA0303;
@@ -554,7 +555,7 @@ h6 {
         border-top-color: #FA0303;
         border-bottom-color: #FA0303;
         width: 100%;
-        top: -1px;
+        top: -2px;
         height: 100%;
         right: 100%;
     }
@@ -602,11 +603,11 @@ h6 {
     line-height: 1;
 }
 
-.section-2 .btn-border-left:before {
-    top: -1px;
+.section .btn-border-left:before {
+    top: -2px;
 }
 
-.section-2 .button:hover .btn-border-left::before {
+.section .button:hover .btn-border-left::before {
     animation: secton-btn-animate-left .5s forwards;
 }
 
@@ -614,7 +615,7 @@ h6 {
     0% {
         width: 0;
         height: 100%;
-        top: -1px;
+        top: -2px;
         left: 0;
         border-top-color: #FA0303;
         border-bottom-color: #FA0303;
@@ -624,7 +625,7 @@ h6 {
         border-top-color: #FA0303;
         border-bottom-color: #FA0303;
         width: 100%;
-        top: -1px;
+        top: -2px;
         height: 100%;
         right: 100%;
     }
