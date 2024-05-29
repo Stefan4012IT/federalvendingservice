@@ -532,11 +532,11 @@ h6 {
     line-height: 1;
 }
 
-.section .btn-border-left:before {
+.section-1 .btn-border-left:before {
     top: -1px;
 }
 
-.section .button:hover .btn-border-left::before {
+.section-1 .button:hover .btn-border-left::before {
     animation: secton-btn-animate-left .5s forwards;
 }
 
@@ -602,11 +602,11 @@ h6 {
     line-height: 1;
 }
 
-.section .btn-border-left:before {
+.section-2 .btn-border-left:before {
     top: -1px;
 }
 
-.section .button:hover .btn-border-left::before {
+.section-2 .button:hover .btn-border-left::before {
     animation: secton-btn-animate-left .5s forwards;
 }
 
