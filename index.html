@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <title>Federal Vending Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="navbar">
+            <div class="navbar-links">
+                <a href="#" class="nav-link"><span>Home</span></a>
+                <a href="#" class="nav-link"><span>Entertainment Vending</span></a>
+                <a href="#" class="nav-link"><span>Food Service</span></a>
+                <a href="#" class="nav-link"><span>About Us</span></a>
+                <a href="#" class="nav-link"><span>More</span></a>
+            </div>
+        </div>
+        <div class="logo-box">
+            <img src="./assets/img/logo/logo-1.svg" alt="" class="logo-hero">
+        </div>
+        <div class="hero-btn-box">
+            <div class="button">
+                <div class="btn-border-left"><span>About Us</span></div>
+            </div>
+            <div class="button">
+                <div class="btn-border-right"><span>Contact</span></div>
+            </div>
+        </div>
+        <div class="sides">
+            <div class="hero-left-side"></div>
+            <div class="hero-right-side"></div>
+        </div>
+
+    </div>
+    <div class="section section-1">
+
+        <div class="federal-entertaintment">
+            <div class="federal-entertaintment--left-side">
+                <h2>ENTERTAINMENT VENDING</h2>
+                <div class="subtitle">
+                    <h5>Jukeboxes</h5>
+                    <div class="middle-point"></div>
+                    <h5>Pool Tables</h5>
+                    <div class="middle-point"></div>
+                    <h5>Arcade Games</h5>
+                </div>
+                <div class="button">
+                    <div class="btn-border-left"><span>Find More</span></div>
+                </div>
+            </div>
+            <div class="federal-entertaintment--right-side"></div>
+        </div>
+
+    </div>
+
+    <div class="section section-2">
+        <div class="federal-food-service">
+
+            <div class="federal-food-service--left-side">
+
+            </div>
+            <div class="federal-food-service--right-side">
+                <h2>FOOD SERVICE</h2>
+                <div class="subtitle">
+                    <h5>Vending Services</h5>
+                    <div class="middle-point"></div>
+                    <h5>Vending Markets</h5>
+                    <div class="middle-point"></div>
+                    <h5>Coffee</h5>
+                </div>
+                <div class="button">
+                    <div class="btn-border-left"><span>Find More</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner banner-1">
+        <div class="banner-box-1">
+            <h6>SERVICE</h6>
+            <h2>24-HOURS 7 DAYS A WEEK</h2>
+            <div class="button">
+                <div class="btn-border-left"><span>Call Us</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-3">
+        <div class="federal-cta-aboutUs">
+            <div class="federal-excellence--left-side">
+
+            </div>
+            <div class="federal-excellence--right-side">
+                <h2>Discover Excellence in Vending Services</h2>
+                <p>We offer the freshest products, knowledgeable employees, and responsive service, ensuring long-term
+                    partnerships and customized solutions for your business needs.</p>
+                <div class="button">
+                    <div class="btn-border-left"><span>About Us</span></div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="section section-4">
+        <div class="federal-events-service">
+            <h2>Transform Your Event with Federal Vending Service!</h2>
+            <p>Turn your next event from ordinary to extraordinary with Federal Vending Service. Whether it’s a party,
+                corporate event, or any special occasion, we make it memorable and fun-filled. Call us today at <span
+                    class="red-span">1-800-445-4778</span> to book your event!</p>
+            <div class="federal-event-service-img">
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="section section-footer">
+            <div class="info-footer">
+                <div class="work-time">
+                    <span class="title">
+                        OPENING HOURS
+                    </span>
+                    <span>
+                        SERVICE 24-HOURS 7 DAYS A WEEK
+                    </span>
+                    <span>
+                        OFFICE: MONDAY-FRIDAY
+                    </span>
+                    <span>
+                        8.00AM-10PM
+                    </span>
+                </div>
+                <div class="address">
+                    <span class="title">
+                        ADDRESS
+                    </span>
+                    <span>
+                        6600 W Rogers Circle Ste-14
+                    </span>
+                    <span>
+                        Boca Raton, FL 33487
+                    </span>
+                    <span>
+                        fdrvend@gmail.com
+                    </span>
+                    <span>
+                        Tel: 561-997-8385
+                    </span>
+                    <span>
+                        Fax: 561-997-6123
+                    </span>
+                </div>
+                <div class="map-box">
+                    <span class="title">
+                        FIND US
+                    </span>
+                    <div id="map">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="social-media-footer">
+
+            </div>
+            <div class="copyright">
+
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="./script.js"></script>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        // Inicijalizacija mape
+        var map = L.map('map').setView([26.4072167, 80.11297137456897], 15);
+
+        // Dodavanje OpenStreetMap tile sloja
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Dodavanje markera na specifične koordinate
+        L.marker([26.4072167, -80.11297137456897]).addTo(map)
+            .bindPopup('6600 W Rogers Circle Ste-14<br>Boca Raton, FL')
+            .openPopup();
+    </script>
+</body>
+
+</html>

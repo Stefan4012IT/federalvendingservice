@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 468 454.3977212">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fa0303;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: Rajdhani-Bold, Rajdhani;
+        font-size: 42px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <polyline class="cls-1" points="192.3585158 152.2688893 254.8213334 152.2688942 283.1328511 83.4349782 164.0470001 83.4349781 146.8885124 41.7174723 300.2913435 41.7174609 317.4498128 0 31.6701518 .0000018 234 348.3410806 436.3298482 .0000018 338.2937362 .0000018 234 253.569816 233.8186196 253.0710199 192.3585158 152.2688893"/>
+  <text class="cls-2" transform="translate(81.3534698 406.8662729)"><tspan x="0" y="0">FEDERAL VENDING</tspan><tspan x="81.8774414" y="33">SERVICE</tspan></text>
+</svg>
