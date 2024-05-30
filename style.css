@@ -871,6 +871,10 @@ footer .title {
 
 @media only screen and (max-width: 1200px) {
 
+    h5 {
+        font-size: 20px;
+    }
+
     .section {
         max-width: 900px;
     }
