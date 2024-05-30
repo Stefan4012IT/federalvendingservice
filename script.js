@@ -10,3 +10,29 @@ document.addEventListener("DOMContentLoaded", function () {
         buttonRght.classList.remove('intro-animate');
     }, 2500); // 1.5s delay + 1s animation duration
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Selektujemo mobile-nav-box i mobile-nav
+    var mobileNavBox = document.querySelector('.mobile-nav-box');
+    var mobileNav = document.querySelector('.mobile-nav');
+    var mobileNavClose = document.querySelector('.mobile-nav-line-box');
+
+    // Proveravamo da li elementi postoje
+    if (mobileNavBox && mobileNav && mobileNavClose) {
+        // Dodajemo event listener za klik na mobile-nav-box
+        mobileNavBox.addEventListener('click', function () {
+            // Toggling display stila na mobile-nav
+            if (mobileNav.style.display === "none" || mobileNav.style.display === "") {
+                mobileNav.style.display = "flex";
+                mobileNav.style.animation = "nav-animation-show 1s forwards";
+            } else {
+                mobileNav.style.display = "none";
+            }
+        });
+
+        mobileNavClose.addEventListener('click', function () {
+            mobileNav.style.animation = "nav-animation-close 1s forwards";
+        })
+    }
+});
