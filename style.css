@@ -886,6 +886,9 @@ footer .title {
     .button {
         width: 170px;
         height: 40px;
+    }
+
+    .button span {
         font-size: 16px;
     }
 }
