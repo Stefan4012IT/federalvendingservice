@@ -1012,7 +1012,7 @@ footer .title {
         }
 
         100% {
-            top: 0;
+            top: -10%;
         }
     }
 
@@ -1034,7 +1034,7 @@ footer .title {
         }
 
         100% {
-            bottom: 0;
+            bottom: -10%;
         }
     }
 
