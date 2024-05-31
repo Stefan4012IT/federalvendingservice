@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var mobileNavBox = document.querySelector('.mobile-nav-box');
     var mobileNav = document.querySelector('.mobile-nav');
     var mobileNavClose = document.querySelector('.mobile-nav-line-box');
+    var body = document.querySelector('body');
 
     // Proveravamo da li elementi postoje
     if (mobileNavBox && mobileNav && mobileNavClose) {
@@ -26,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (mobileNav.style.display === "none" || mobileNav.style.display === "") {
                 mobileNav.style.display = "flex";
                 mobileNav.style.animation = "nav-animation-show 1s forwards";
+                body.style.overflowY = "hidden";
             } else {
                 mobileNav.style.display = "none";
             }
@@ -33,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         mobileNavClose.addEventListener('click', function () {
             mobileNav.style.animation = "nav-animation-close 1s forwards";
+            body.style.overflowY = "auto";
         })
     }
 });
