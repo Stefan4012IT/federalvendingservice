@@ -520,8 +520,8 @@ h6 {
 }
 
 .section-1 .federal-entertaintment--right-side {
-    background-image: url(./assets/img/pics/header_virtuo.png);
-    height: 750px;
+    background-image: url(./assets/img/pics/header_virtuo-1.png);
+    height: 630px;
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 1;
@@ -587,7 +587,7 @@ h6 {
 
 .section-2 .federal-food-service--left-side {
     background-image: url(./assets/img/pics/evoke-snack-6.4.png);
-    height: 750px;
+    height: 630px;
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 1;
@@ -1126,7 +1126,7 @@ footer .title {
     }
 
     .logo-box {
-        width: 250px;
+        width: 50%;
     }
 
     .section {
