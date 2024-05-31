@@ -501,7 +501,7 @@ h6 {
 .section-1 {
     position: relative;
     background-color: #000200;
-    margin: 100px auto;
+    margin: 150px auto;
 }
 
 .section-1 .federal-entertaintment {
@@ -567,7 +567,7 @@ h6 {
 .section-2 {
     position: relative;
     background-color: #000200;
-    margin: 100px auto;
+    margin: 150px auto;
 }
 
 .section-2 .federal-food-service {
@@ -586,7 +586,7 @@ h6 {
 }
 
 .section-2 .federal-food-service--left-side {
-    background-image: url(./assets/img/pics/evoke-snack-6.4.png);
+    background-image: url(./assets/img/pics/evoke-snack-1.1.png);
     height: 630px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -634,7 +634,7 @@ h6 {
     width: 100%;
     height: 350px;
     background-color: #000200;
-    margin: 100px 0;
+    margin: 150px 0;
 }
 
 .banner-1 .banner-box-1 {
@@ -674,7 +674,7 @@ h6 {
 .section-3 {
     position: relative;
     background-color: #000200;
-    margin: 100px auto;
+    margin: 150px auto;
 }
 
 .section-3 .federal-cta-aboutUs {
@@ -698,7 +698,7 @@ h6 {
 
 .section-3 .federal-excellence--left-side {
     background-image: url(./assets/img/stock/stock-9.jpg);
-    height: 600px;
+    height: auto;
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 1;
@@ -715,7 +715,7 @@ h6 {
 .section-4 {
     position: relative;
     background-color: #000200;
-    margin: 100px auto;
+    margin: 150px auto;
 }
 
 .section-4 .federal-events-service {
@@ -1126,7 +1126,7 @@ footer .title {
     }
 
     .logo-box {
-        width: 50%;
+        width: 250px;
     }
 
     .section {
