@@ -716,6 +716,7 @@ h6 {
     position: relative;
     background-color: #000200;
     margin: 150px auto;
+    margin-bottom: 100px;
 }
 
 .section-4 .federal-events-service {
@@ -1174,6 +1175,10 @@ footer .title {
     .banner-1:hover .banner-box-1 {
         box-shadow: none;
         transform: scale(1.0) translate(-50%, -50%);
+    }
+
+    .section-4 {
+        margin-bottom: 50px;
     }
 
     .info-footer {
