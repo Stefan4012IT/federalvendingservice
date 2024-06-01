@@ -992,6 +992,7 @@ footer .title {
         flex-direction: column;
         justify-content: space-between;
         z-index: 1;
+        display: none;
     }
 
     .menu-top-arrow {
