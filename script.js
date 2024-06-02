@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var mobileNav = document.querySelector('.mobile-nav');
     var mobileNavClose = document.querySelector('.mobile-nav-line-box');
     var body = document.querySelector('body');
+    var heroPage = document.querySelector('.hero-page');
 
     // Proveravamo da li elementi postoje
     if (mobileNavBox && mobileNav && mobileNavClose) {
@@ -28,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 mobileNav.style.display = "flex";
                 mobileNav.style.animation = "nav-animation-show 1s forwards";
                 body.style.overflowY = "hidden";
+                heroPage.style.height = '100vh';
             } else {
                 mobileNav.style.display = "none";
             }
@@ -36,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         mobileNavClose.addEventListener('click', function () {
             mobileNav.style.animation = "nav-animation-close 1s forwards";
             body.style.overflowY = "auto";
+            heroPage.style.height = 'revert-layer';
         })
     }
 });
